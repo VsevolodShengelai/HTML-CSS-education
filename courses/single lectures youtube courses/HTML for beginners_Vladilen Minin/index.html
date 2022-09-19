@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vsevolod CV</title>
+  </head>
+  <body>
+    <!-- Размещение элементов с помощью сетки -->
+    <!-- Для этого есть CSS и такой способ структурировать сайты применяля тогда, когда CSS был не очень развит -->
+    <table cellspacing="15">
+      <tr>
+        <td>
+          <img
+            src="avatar.jpg"
+            alt="Аватарка - автомобиль deLorean: вид сзади"
+            width="200"
+          />
+        </td>
+        <td>
+          <h1>Всеволод Шенгелай</h1>
+          <p>
+            <!-- <i> против <em> -->
+            <em>Я студент, изучающий <strong>веб-разработку</strong></em>
+          </p>
+          <p>Я люблю программировать и заниматься веб-дизайном</p>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Мои страницы в социальных сетях</h2>
+    <ul type="square">
+      <li><a href="https://vk.com/vsevolod.sheng" target="_blank">VK</a></li>
+      <li>
+        <a href="https://github.com/VsevolodShengelai" target="_blank"
+          >GitHub</a
+        >
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>Мои хобби</h2>
+    <ol>
+      <li>Хобби 1</li>
+      <li>Хобби 2</li>
+      <li>Хобби 3</li>
+      <li>Хобби 4</li>
+    </ol>
+
+    <hr />
+
+    <h2>Опыт работы</h2>
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Компания</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>EPAM</td>
+          <td>Software Engineer</td>
+          <td>2024-2025</td>
+        </tr>
+        <tr>
+          <td>Some Company</td>
+          <td>Some position</td>
+          <td>2025-2026</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+
+    <hr />
+
+    <h2>Связаться со мной</h2>
+
+    <form action="/">
+      <label for="name">Ваше имя</label>
+      <input id="name" type="text" placeholder="Введите ваше имя..." />
+
+      <br />
+
+      <label for="email">Ваш Email</label>
+      <input id="email" type="email" placeholder="Введите ваше имя..." />
+
+      <br />
+
+      <label for="taxt">Ваше сообщение</label>
+      <textarea id="text" ></textarea>
+
+      <br />
+
+      <input type="submit" value="Связаться со мной" />
+    </form>
+  </body>
+</html>
